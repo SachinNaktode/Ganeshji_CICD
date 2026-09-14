@@ -1,3 +1,4 @@
+#checkov:skip=CKV_AZURE_50:VM extensions are not used in this project
 resource "azurerm_linux_virtual_machine" "vm" {
 
   for_each = var.vm
