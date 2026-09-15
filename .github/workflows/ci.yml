@@ -8,7 +8,7 @@ name: Terraform CI
 on:
   push:
     branches:
-      - features
+      - feature/terraform-cicd
 
 permissions:
   contents: read
